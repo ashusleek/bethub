@@ -1,0 +1,19 @@
+# base image
+FROM node:14.15.1-alpine
+
+ARG API_URL
+ENV REACT_APP_API_URL=$API_URL
+
+# set working directory
+WORKDIR /app
+
+# expose port 80
+EXPOSE 80
+
+# add app
+COPY . /app
+
+ENV PORT=80
+
+# start app
+CMD ["npm", "start"]

@@ -1,0 +1,18 @@
+/**
+google fonts
+*/
+/* @font-face {
+  font-family: 'DotGothic16';
+  src: url('assets/fonts/DotGothic16-Regular.woff2') format('woff2'), url('assets/fonts/DotGothic16-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'LCD-Display-Grid';
+  src: url('assets/fonts/LCDDisplayGrid.woff2') format('woff2'), url('assets/fonts/LCDDisplayGrid.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,11 @@
+# deployment
+/deploy/build
+
+# modules
+/node_modules
+
+# environment files
+.env
+
+#build folder
+/build

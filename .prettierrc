@@ -1,0 +1,8 @@
+{
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "newline-before-return": true,
+  "no-duplicate-variable": [true, "check-parameters"],
+  "tabWidth": 2,
+  "printWidth": 140
+}

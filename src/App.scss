@@ -1,0 +1,97 @@
+.data-table > div {
+  overflow: visible;
+
+  @media only screen and (max-width: 768px) {
+    overflow: scroll;
+  }
+}
+
+.dropdown {
+  position: initial !important;
+}
+
+.rdt_TableHeader div:nth-child(3) {
+  display: none;
+}
+
+.w-185 {
+  width: 185px;
+}
+
+.sidebar-icon {
+  height: 55px;
+  width: 90%;
+}
+
+body {
+  background-color: #000000 !important;
+}
+
+// table design custom
+
+tr.main-heading th {
+  text-align: center;
+  background-color: #39ff14;
+  padding: 20px;
+  color: #000;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+tr.main-heading {
+  border: 1px solid #fff;
+}
+tr.heading_name td {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  background-color: green;
+  color: white;
+  padding: 15px;
+}
+tr.entry_start {
+  line-height: 50px;
+}
+tr.entry_start td {
+  display: table-cell;
+  width: 2%;
+  text-align: center;
+}
+tr.entry_start .name_design {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.entry_table tr:nth-child(2n-1) {
+  border-bottom: 4px dashed #fff;
+}
+tr.main-heading {
+  border: 1px solid #fff;
+}
+table.entry_table {
+  // border:0px;
+  border-color: transparent;
+  font-family: 'LCD-Display-Grid', sans-serif;
+  // border-collapse: separate;
+  // border-spacing: 0 15px;
+}
+td.empty span {
+  padding: 7px 24px;
+  text-align: center;
+  background-color: #d2d2d2;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+td.number span {
+  padding: 7px 24px;
+  text-align: center;
+  background-color: #39ff14;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  border-radius: 8px;
+}
+tr.main-heading th:first-child {
+  visibility: hidden;
+}

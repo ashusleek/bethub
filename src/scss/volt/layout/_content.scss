@@ -1,0 +1,5 @@
+.main-content {
+  overflow: visible;
+  padding: 0 $spacer 0 $spacer;
+  @include transition(all 0.3s);
+}
